@@ -12,3 +12,5 @@ Die Möglichkeit in der "unreal engine" sowohl mit Programmieren im Textformat, 
 Wir behielten uns aber dennoch vor nicht spätestens nach den Weinachtsferien doch noch zu einem Greenfoot Projekt zu wechseln, würden wir feststellen, dass ein Projekt mit der "unreal engine" außerhalb unserer Möglichkeiten stünde.
 
 Wir begannen also mit der Recherche, um einen Zugang zur "unreal engine" zu finden".
+
+### <a name="2"></a>Projektfindungsphase 11.12.2020-27.01.2021:
