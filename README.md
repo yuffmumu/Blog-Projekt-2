@@ -15,7 +15,7 @@ Wir begannen also mit der Recherche, um einen Zugang zur "unreal engine" zu find
 
 ### <a name="2"></a>Projektfindungsphase 11.12.2020-27.01.2021:
 Wir beschäftigten uns für etwas mehr als einen Monat mit Unreal Engine um ein Gefühl dafür zu bekommen, ob Unreal Engine im Rahmen unserer Möglichkeiten, also neben dem Abitur etc., liegt. 
-Im Verlauf unserer Recherchen stellten wir fest, dass das Arbeiten mit der Unreal ENgine zwar durchaus möglich ist, sich aber unseres Wissensstandes wegen vor allem auf die Möglichkeiten der "blueprints" beschränken würde, was ja wie aus den Rücksprachen mit ihnen hervorging, nicht ganz das eigentlich zu verfolgende Ziel ist.
+Im Verlauf unserer Recherchen stellten wir fest, dass das Arbeiten mit der Unreal Engine zwar durchaus möglich ist, sich aber unseres Wissensstandes wegen vor allem auf die Möglichkeiten der "blueprints" beschränken würde, was ja wie aus den Rücksprachen mit ihnen hervorging, nicht ganz das eigentlich zu verfolgende Ziel ist.
 Dementsprechend entschieden wir uns, nachdem wir entschieden hatten, dass die investierbare Zeit in das Projekt nicht ausreichen würde um die Unreal Engine auf eine entsprechende Weise zu betreiben ein Greenfoot-Projekt zu machen.
 
 Bei Greenfoot selbst stellten wir daraufhin die ersten Überlegungen zur Entwicklung des Projektes an.
