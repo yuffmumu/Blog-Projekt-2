@@ -21,3 +21,6 @@ Dementsprechend entschieden wir uns, nachdem wir entschieden hatten, dass die in
 Bei Greenfoot selbst stellten wir daraufhin die ersten Überlegungen zur Entwicklung des Projektes an.
 Um, wie auch im ersten Projekt einen Wiederspielwert zu gewährleisten, was uns wichtig ist, werden wir vermutlich versuchen eine art "Randomizer" zu integrieren, welches das Spiel auf irgendeine Weise zufällig beeinflusst z.B. dass die Struktur der Spielwelt zufällig ist und somit intersessant bleibt.
 Auf welche Weise wir dies genau erreichen ist bis hier hin noch nicht klar, da Vergleichbare Spiele, welche über einen "seed" die Spielwelt beeinflussen eventuell zu umfangreich bzw. die Funktionsweise für unsere Zwecke suboptimal ist.
+
+### <a name="3"></a>22.02.2021:
+Wir haben uns ihren Ratschlag, uns "the joy of code" anzugucken zu herzen genommen und haben erstmal ausprobiert, was man so machen kann, und wie das Programm aufgebaut ist.
