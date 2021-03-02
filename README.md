@@ -23,4 +23,4 @@ Um, wie auch im ersten Projekt einen Wiederspielwert zu gewährleisten, was uns 
 Auf welche Weise wir dies genau erreichen ist bis hier hin noch nicht klar, da Vergleichbare Spiele, welche über einen "seed" die Spielwelt beeinflussen eventuell zu umfangreich bzw. die Funktionsweise für unsere Zwecke suboptimal ist.
 
 ### <a name="3"></a>22.02.2021:
-Wir haben uns ihren Ratschlag, uns "the joy of code" anzugucken zu herzen genommen und haben erstmal ausprobiert, was man so machen kann, und wie das Programm aufgebaut ist.
+Wir haben uns ihren Ratschlag, uns "the joy of code" anzugucken zu herzen genommen und haben erstmal ausprobiert, was man so machen kann, und wie das Programm aufgebaut ist. Wir haben uns unter anderem mit dem Prizip der Klassen und Objekte auseinander gesetzt.
