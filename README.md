@@ -23,4 +23,10 @@ Um, wie auch im ersten Projekt einen Wiederspielwert zu gewährleisten, was uns 
 Auf welche Weise wir dies genau erreichen ist bis hier hin noch nicht klar, da Vergleichbare Spiele, welche über einen "seed" die Spielwelt beeinflussen eventuell zu umfangreich bzw. die Funktionsweise für unsere Zwecke suboptimal ist.
 
 ### <a name="3"></a>22.02.2021:
-Wir haben uns ihren Ratschlag, uns "the joy of code" anzugucken zu herzen genommen und haben erstmal ausprobiert, was man so machen kann, und wie das Programm aufgebaut ist. Wir haben uns unter anderem mit dem Prizip der Klassen und Objekte auseinander gesetzt.
+Wir haben uns ihren Ratschlag, uns "the joy of code" anzugucken zu herzen genommen und haben erstmal ausprobiert, was man so machen kann, und wie das Programm aufgebaut ist. Wir haben uns unter anderem mit dem Prinziep der Klassen und Objekte auseinander gesetzt.
+
+### <a name="4"></a>4.03.2021:
+Zunächst, da der Präsenzunterricht wieder angefangen hatte haben wir dann versucht tatsächlich in "Greenfoot" zu arbeiten.
+Um einen Zugang zu finden versuchten wir Grundstrukturen, wie wir sie in "Snap!" bei unserem ersten Projekt hatten, nun in Java umzusetzen.
+Selbstverständlich hatten wir in Errinerung an die Snapblöcke eine Vorstellung dessen, was es zu Programmieren galt (z.B. einen "if" command für die Fortbewegung), jedoch bereitete uns die offensichtlich sehr viel komplexere und grundsätzlich andere Struktur des textbasierten Programmierens sofort Probleme.
+Nach Hilfe von Herrn Buhl und Recherche schafften wir es jetztendlich doch, erste "actors" in der Welt zu definieren und die grundlegendsten Bewegungen auf Befehl umzusetzen. 
