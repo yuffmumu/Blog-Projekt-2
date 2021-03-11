@@ -2,6 +2,14 @@
 
 [Projektfindungsphase 8.12.2020-11.12.2020](#1)   
 
+[Projektfindungsphase 11.12.2020-27.1.2021](#2)
+
+[Erste Programmierversuche 22.2.2021](#3)
+
+[Wiederbeginn des Präsenzunterricht 4.3.2021](#4) 
+
+[Erste Erfolge beim Strukturieren vom Programm 11.3.2021](#5)  
+
 ### <a name="1"></a>Projektfindungsphase 8.12.2020-11.12-2020:
 Wir begannen die Suche nach einer neuen Plattform für unser 2. Projekt.
 Da wir die Möglichkeiten von "Snap!" im ersten Projekt relativ vollständig ausgereizt hatten war klar das wir eine neue, komplexere Plattform, welche aber natürlich auch mehr Möglichkeiten mit sich bringen würde, suchen mussten.
@@ -23,10 +31,23 @@ Um, wie auch im ersten Projekt einen Wiederspielwert zu gewährleisten, was uns 
 Auf welche Weise wir dies genau erreichen ist bis hier hin noch nicht klar, da Vergleichbare Spiele, welche über einen "seed" die Spielwelt beeinflussen eventuell zu umfangreich bzw. die Funktionsweise für unsere Zwecke suboptimal ist.
 
 ### <a name="3"></a>22.02.2021:
-Wir haben uns ihren Ratschlag, uns "the joy of code" anzugucken zu herzen genommen und haben erstmal ausprobiert, was man so machen kann, und wie das Programm aufgebaut ist. Wir haben uns unter anderem mit dem Prinziep der Klassen und Objekte auseinander gesetzt.
+Wir haben uns ihren Ratschlag, uns "the joy of code" anzugucken zu herzen genommen und uns einen Ersten Eindruck von der Struktur Greenfoots geschaffen, sowie versucht nachzuvollziehen inwiefern sich "Greenfoot" mit "Snap" vergleichen lässt. Wir haben uns unter anderem mit dem Prinziep der Klassen und Objekte auseinander gesetzt.
 
 ### <a name="4"></a>4.03.2021:
 Zunächst, da der Präsenzunterricht wieder angefangen hatte haben wir dann versucht tatsächlich in "Greenfoot" zu arbeiten.
 Um einen Zugang zu finden versuchten wir Grundstrukturen, wie wir sie in "Snap!" bei unserem ersten Projekt hatten, nun in Java umzusetzen.
-Selbstverständlich hatten wir in Errinerung an die Snapblöcke eine Vorstellung dessen, was es zu Programmieren galt (z.B. einen "if" command für die Fortbewegung), jedoch bereitete uns die offensichtlich sehr viel komplexere und grundsätzlich andere Struktur des textbasierten Programmierens sofort Probleme.
+Selbstverständlich hatten wir in Errinerung an die Snapblöcke eine Vorstellung dessen, was es zu Programmieren galt (z.B. einen "if" command für die Fortbewegung), jedoch bereitete uns die offensichtlich sehr viel komplexer wirkende und grundsätzlich andere Struktur des textbasierten Programmierens sofort Probleme.
 Nach Hilfe von Herrn Buhl und Recherche schafften wir es jetztendlich doch, erste "actors" in der Welt zu definieren und die grundlegendsten Bewegungen auf Befehl umzusetzen. 
+
+### <a name="5"></a>Erste Erfolge beim Strukturieren vom Programm 11.03.2021:
+Unser Konzept und unsere Ambitionen ein verhältnissmäßig komplexes und umfangreiches Spiel zu programmieren, mussten wir, der Komplexität des Programmierens und insbesondere der im Ramen des 2. Halbjahrs sehr begrenzten Zeit wegen, vorerst zur Seite legen um uns auf das Programmieren in Greenfoot auf einer grundlegenden Ebene zu konzentrieren.
+Wir wanden uns also vorerst dem Lernen der Basics zu, um von Grund auf ein sinnvolles Programm zu entwickeln, dass die grundlegenden und sinnvollen Strukturen des Programmierens beinhaltet.
+Alle Methoden sollten gut strukturiert und modular eingearbeitet werden.
+Hier gab es auch erste Erfolge insofern, als das wir verstanden, wie wir verschiedene Methoden unterteilen konnten um eine übersichtliche Struktur zu erreichen. 
+
+----bild einfügen von "steuerung" usw.
+
+Wir entschieden uns daraufhin dafür zu versuchen, unseren "Sprung" aus dem 1. Projekt in unseren Greenfoot projekt zu reproduzieren, da in demselben sehr viele hilfreiche und nützliche Commands stecken und wir uns erhofften, auf diesem Wege parrallelen zwischen den beiden Programmiermöglichkeiten zu schaffen und so über einen praktischen Ansatz, uns in Greenfoot zurecht zu finden.
+Wir konnte dadurch bis hierhin nun Variablen definieren und einsetzen, forever schleifen umsetzen und einen boolean für das Berühren des Bodens schaffen.
+Was bis hierhinm, der Zeit wegen, noch nicht möglich war, war die Variable immer wieder zu verändern, bis der Character wieder den Boden berührt, wie wir es in Snap mir einem "repeat until" block gemachten hatten.
+
