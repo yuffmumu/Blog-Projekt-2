@@ -78,4 +78,3 @@ Der finale Code für den Sprung und die Bewegung nach links und rechts sah nun s
 
 ![image](https://user-images.githubusercontent.com/69623479/111298393-fae7d300-864e-11eb-8b1e-aa69dcc17fb4.png)
 
-
