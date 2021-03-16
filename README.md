@@ -10,6 +10,11 @@
 
 [Erste Erfolge beim Strukturieren vom Programm 11.3.2021](#5)  
 
+[Der fast perfekte Sprung 12.3.2021](#6)  
+
+[Der perfekte Sprung 11.3.2021](#7)  
+
+
 ### <a name="1"></a>Projektfindungsphase 8.12.2020-11.12-2020:
 Wir begannen die Suche nach einer neuen Plattform für unser 2. Projekt.
 Da wir die Möglichkeiten von "Snap!" im ersten Projekt relativ vollständig ausgereizt hatten war klar das wir eine neue, komplexere Plattform, welche aber natürlich auch mehr Möglichkeiten mit sich bringen würde, suchen mussten.
@@ -45,9 +50,32 @@ Wir wanden uns also vorerst dem Lernen der Basics zu, um von Grund auf ein sinnv
 Alle Methoden sollten gut strukturiert und modular eingearbeitet werden.
 Hier gab es auch erste Erfolge insofern, als das wir verstanden, wie wir verschiedene Methoden unterteilen konnten um eine übersichtliche Struktur zu erreichen. 
 
-----bild einfügen von "steuerung" usw.
+![image](https://user-images.githubusercontent.com/69623479/111297605-16061300-864e-11eb-9497-29a0fcb88fb8.png)
 
 Wir entschieden uns daraufhin dafür zu versuchen, unseren "Sprung" aus dem 1. Projekt in unseren Greenfoot projekt zu reproduzieren, da in demselben sehr viele hilfreiche und nützliche Commands stecken und wir uns erhofften, auf diesem Wege parrallelen zwischen den beiden Programmiermöglichkeiten zu schaffen und so über einen praktischen Ansatz, uns in Greenfoot zurecht zu finden.
 Wir konnte dadurch bis hierhin nun Variablen definieren und einsetzen, forever schleifen umsetzen und einen boolean für das Berühren des Bodens schaffen.
 Was bis hierhinm, der Zeit wegen, noch nicht möglich war, war die Variable immer wieder zu verändern, bis der Character wieder den Boden berührt, wie wir es in Snap mir einem "repeat until" block gemachten hatten.
+
+### <a name="6"></a>Der fast perfekte Sprung 12.03.2021:
+
+Die Variable progressiv zu ändern war nun Ziel für die Stunde.
+Da dies auch nachdem wir die nicht funktonierende "while" schleife aufgelöst hatten und die commands entsprechend neu angeordnet hatten, noch nicht funktionierte lernten wir die Methode mit den "breaking points" kennen.
+Wir untersuchten die einzelnen Schritte unserer commands und fanden heraus, dass wir die Änderung der Variable zwar richtig programmiert hatten, dieser Schritt jedoch nie erreicht wurde. 
+
+![image](https://user-images.githubusercontent.com/69623479/111297263-b7d93000-864d-11eb-9314-70c9ca476c20.png)
+
+Woran das genau lag konnten wir noch nicht lösen.
+Dennoch ließ sich bis hierhin festhalten, dass wir unsere Grundprinzipien aus Snap wie "if commands" oder Variablen in Java anwenden konnten.
+
+
+### <a name="7"></a>Der perfekte Sprung 16.03.2021:
+
+Wir wanden uns nun dem letzten Problem des Sprungs zu. 
+Wir lagen richtig, dass prinzipiel beim Sprung kein Fehler war.
+Das einzige Problem war, dass eine "if schleife" in der vorigen drin steckte sodass die Variablen sich wiedersprachen. Außerdem musste es "jump_velocity -1" anstelle von "jump_velocity +1" heißen.
+Dies war schnell behoben und der Sprung funtkionierte genau so dynamisch und schön wie in unserem Snap Projekt.
+Der finale Code für den Sprung und die Bewegung nach links und rechts sah nun so aus:
+
+![image](https://user-images.githubusercontent.com/69623479/111298393-fae7d300-864e-11eb-8b1e-aa69dcc17fb4.png)
+
 
