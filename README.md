@@ -78,5 +78,13 @@ Der finale Code für den Sprung und die Bewegung nach links und rechts sah nun s
 
 ![image](https://user-images.githubusercontent.com/69623479/111298393-fae7d300-864e-11eb-8b1e-aa69dcc17fb4.png)
 
-Unser nächstes Ziel wird es sein einen "world constructor" zu integrieren.
+
+### <a name="8"></a>Tetris 18.03.2021:
+
+Es wurde nun Zeit uns für ein Projekt zu entscheiden, dass im Ramen der Zeit erreichbar, mit unseren Fähigkeiten machbar und unserem Wunsch ein richtiges Spiel entsprechend ist.
+Schnell stand die Idee im Raum ein altes Arcade Spiel zu reproduzieren.
+Wichtig bei der Entscheidung welches war, dass wir uns von vornerein die Strukturen des Programms in Sachen Klassen und Design vorstellen konnten und die Komplexität des Spiels anspruchsvoll genug um Spaß am Ergebniss haben zu können, aber nicht zu anspruchsvoll für den sehr begrenzten Zeitraum.
+Mit diesen Kriterien konnten wir einige Kandidaten (z.B. Pacman) auschließen.
+Wir entschieden uns nach kurzer Recherche für Tetris.
+Tetris als Spiel hatte vorerst alle nötigen Qualitäten besonders weil wir uns gut vorstellen konnten, wie wir das Spiel aufbauen und Programmieren können, da sich das Spiel sehr klar in Klassen und Objekte aufteilen lässt und das Design simpel genug ist um es angemessen zu realisieren.
 
