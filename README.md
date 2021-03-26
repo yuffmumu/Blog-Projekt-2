@@ -12,7 +12,9 @@
 
 [Der fast perfekte Sprung 12.3.2021](#6)  
 
-[Der perfekte Sprung 11.3.2021](#7)  
+[Der perfekte Sprung 11.3.2021](#7) 
+
+[Tetris 18-25.3.2021](#8) 
 
 
 ### <a name="1"></a>Projektfindungsphase 8.12.2020-11.12-2020:
@@ -53,7 +55,7 @@ Hier gab es auch erste Erfolge insofern, als das wir verstanden, wie wir verschi
 ![image](https://user-images.githubusercontent.com/69623479/111297605-16061300-864e-11eb-9497-29a0fcb88fb8.png)
 
 Wir entschieden uns daraufhin dafür zu versuchen, unseren "Sprung" aus dem 1. Projekt in unseren Greenfoot projekt zu reproduzieren, da in demselben sehr viele hilfreiche und nützliche Commands stecken und wir uns erhofften, auf diesem Wege parrallelen zwischen den beiden Programmiermöglichkeiten zu schaffen und so über einen praktischen Ansatz, uns in Greenfoot zurecht zu finden.
-Wir konnte dadurch bis hierhin nun Variablen definieren und einsetzen, forever schleifen umsetzen und einen boolean für das Berühren des Bodens schaffen.
+Wir konnte dadurch bis hierhin nun Variablen definieren und einsetzen, forever Schleifen umsetzen und einen boolean für das Berühren des Bodens schaffen.
 Was bis hierhinm, der Zeit wegen, noch nicht möglich war, war die Variable immer wieder zu verändern, bis der Character wieder den Boden berührt, wie wir es in Snap mir einem "repeat until" block gemachten hatten.
 
 ### <a name="6"></a>Der fast perfekte Sprung 12.03.2021:
@@ -90,4 +92,11 @@ Der Zeit wegen war es jedoch unrealisitsch das Spiel in vollem Ausmaß zu progra
 Dementsprechend einigten wir uns das Spiel nur im Ramen des grundlegenden Konzepts zu programmieren, sodass wir uns die aufwendigeren Formen und andere Details die zwar den Spielfluss interessanter machen würden, aber keine Prinzipielle änderung am Programm bedeuten, wie das Beschleunigen der Fallzeit der Teile über Zeit, sparen konnten.
 
 -------Visualisierung von leinwand und berührungspunkten wo wir nichts eingezeichnet haben
+
+Was wir bereits schafften war über eine Modulu Funktion den Block immer wieder ein Stück nach unten bewegen zu lassen indem wir sagten, dass jedes mal wenn der Rest den Wert 30 erreicht, der Block einen bestimmten Wert nach unten gehen soll. Auch grundlegend den Block währende er sich nach unten bewegte, nach links und rechts zu bewegen war kein weiteres Problem, da wir dies ja bereits in unserer Testphase gelernt hatten.
+
+Der Code für die aktive (links und rechts) und permanente (modulu basierte) Bewegung sah dann so aus:
+
+![image](https://user-images.githubusercontent.com/69623479/112623109-38591700-8e2c-11eb-9f85-18b83ab754d4.png)
+
 
