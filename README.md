@@ -103,4 +103,5 @@ Der Code für die aktive (links und rechts) und permanente (modulu basierte) Bew
 
 
 ### <a name="9"></a>Respawn:
+Unser nächstes Ziel war es. dass wenn das L_Teil den Boden, bzw. in unserem Fall den bottom_detector berüht soll ein neues L_Teil gespawnt werden. Bis jetzt wurde es nur zu Anfang im world constructor erzeugt. Also erstellten wir den boolean detect, der immer dann true wurde, wenn das L_Teil den bottom_detector berührt.
 
