@@ -18,6 +18,8 @@
 
 [Respawn](#9) 
 
+[Delete Row](#10)
+
 
 ### <a name="1"></a>Projektfindungsphase 8.12.2020-11.12-2020:
 Wir begannen die Suche nach einer neuen Plattform für unser 2. Projekt.
@@ -109,3 +111,5 @@ Von Snap waren wir es gewöhnt, dass alle Objekte standartmäßig auf alle Varia
 
 ![programm screenshot](https://user-images.githubusercontent.com/69623479/114703384-82476580-9d25-11eb-9efd-0c9d62ba4489.PNG)
 
+### <a name="10"></a>Delete Row:
+sfsfsfsd
