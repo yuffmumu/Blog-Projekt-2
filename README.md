@@ -62,7 +62,7 @@ Was bis hierhinm, der Zeit wegen, noch nicht möglich war, war die Variable imme
 
 ### <a name="6"></a>Der fast perfekte Sprung 12.03.2021:
 
-Die Variable progressiv zu ändern war nun Ziel für die Stunde.
+Die Variable, die die "Geschwindigkeit" des Sprungs angab, progressiv zu ändern war nun Ziel für die Stunde.
 Da dies auch nachdem wir die nicht funktonierende "while" schleife aufgelöst hatten und die commands entsprechend neu angeordnet hatten, noch nicht funktionierte lernten wir die Methode mit den "breaking points" kennen.
 Wir untersuchten die einzelnen Schritte unserer commands und fanden heraus, dass wir die Änderung der Variable zwar richtig programmiert hatten, dieser Schritt jedoch nie erreicht wurde. 
 
@@ -87,15 +87,13 @@ Der finale Code für den Sprung und die Bewegung nach links und rechts sah nun s
 
 Es wurde nun Zeit uns für ein Projekt zu entscheiden, dass im Ramen der Zeit erreichbar, mit unseren Fähigkeiten machbar und unserem Wunsch ein richtiges Spiel entsprechend ist.
 Schnell stand die Idee im Raum ein altes Arcade Spiel zu reproduzieren.
-Wichtig bei der Entscheidung welches war, dass wir uns von vornerein die Strukturen des Programms in Sachen Klassen und Design vorstellen konnten und die Komplexität des Spiels anspruchsvoll genug um Spaß am Ergebniss haben zu können, aber nicht zu anspruchsvoll für den sehr begrenzten Zeitraum.
+Wichtig bei der Entscheidung, welches genau es sein sollte, war, dass wir uns von vornerein die Strukturen des Programms in Sachen Klassen und Design vorstellen konnten und die Komplexität des Spiels anspruchsvoll genug um Spaß am Ergebniss haben zu können, aber nicht zu anspruchsvoll für den sehr begrenzten Zeitraum.
 Mit diesen Kriterien konnten wir einige Kandidaten (z.B. Pacman) auschließen.
 Wir entschieden uns nach kurzer Recherche für Tetris.
 Der Zeit wegen war es jedoch unrealisitsch das Spiel in vollem Ausmaß zu programmieren, da allein die verschiedenen Formen im spiel zu Integrieren sehr aufwendig gewesen wäre, da die Formen in Greenfoot zu erstellen eben nur wie auf einer Leinwand funktioniert, sodass wir bei manchen Formen Berührungspunkte an stellen hätten, die garnicht eingezeichnet wären.
 Dementsprechend einigten wir uns das Spiel nur im Ramen des grundlegenden Konzepts zu programmieren, sodass wir uns die aufwendigeren Formen und andere Details die zwar den Spielfluss interessanter machen würden, aber keine Prinzipielle änderung am Programm bedeuten, wie das Beschleunigen der Fallzeit der Teile über Zeit, sparen konnten.
 
--------Visualisierung von leinwand und berührungspunkten wo wir nichts eingezeichnet haben
-
-Was wir bereits schafften war über eine Modulu Funktion den Block immer wieder ein Stück nach unten bewegen zu lassen indem wir sagten, dass jedes mal wenn der Rest den Wert 30 erreicht, der Block einen bestimmten Wert nach unten gehen soll. Auch grundlegend den Block währende er sich nach unten bewegte, nach links und rechts zu bewegen war kein weiteres Problem, da wir dies ja bereits in unserer Testphase gelernt hatten.
+Was wir bereits schafften war über eine Modulo Funktion den Block immer wieder ein Stück nach unten bewegen zu lassen indem wir sagten, dass jedes mal wenn der Rest den Wert 30 erreicht, der Block einen bestimmten Wert nach unten gehen soll. Auch grundlegend den Block währende er sich nach unten bewegte, nach links und rechts zu bewegen war kein weiteres Problem, da wir dies ja bereits in unserer Testphase gelernt hatten.
 
 Der Code für die aktive (links und rechts) und permanente (modulu basierte) Bewegung sah dann so aus:
 
