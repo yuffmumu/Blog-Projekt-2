@@ -16,9 +16,9 @@
 
 [Tetris 18-25.3.2021](#8) 
 
-[Respawn](#9) 
+[Respawn 25.3-14.4.2021](#9) 
 
-[Delete Row](#10)
+[Delete Row 15-16.4.2021](#10)
 
 
 ### <a name="1"></a>Projektfindungsphase 8.12.2020-11.12-2020:
@@ -104,13 +104,13 @@ Der Code für die aktive (links und rechts) und permanente (modulu basierte) Bew
 ![image](https://user-images.githubusercontent.com/69623479/112623109-38591700-8e2c-11eb-9f85-18b83ab754d4.png)
 
 
-### <a name="9"></a>Respawn:
+### <a name="9"></a>Respawn 25.3-14.4.2021:
 Unser nächstes Ziel war es, dass wenn das "L_Teil" den Boden, bzw. in unserem Fall den "bottom_detector" berüht, ein neues "L_Teil" gespawnt wird. Bis jetzt wurde es nur zu Anfang im world constructor gespawnt. Also erstellten wir den boolean "detect", der immer dann true wurde, wenn das "L_Teil" den "bottom_detector" berührte. Sobald die Variable "detect" "true" wurde, sollte mithilfe einer if_Schleife ein neues "L_Teil" gespawnt werden (Wenn die Bedingung detect == true erfüllt wurde, führe die Methode addObject(new L_Teil, 8, 0) aus). Es kam jedoch immer der Fehler "cannot find symbol - method addObject(L_Teil, int, int)" raus. Daraus schlossen wir, dass man nur in der World Klasse Objekte erzeugen kann. Also kopierten wir unsere if-Schleife in die MyWorld Klasse. Doch wieder kam eine Fehlermeldung. Dieses mal hieß es: "cannot find symbol - variable detect". Das hieß offensichtlich, dass die Variable "detect" nicht von sowohl der "world", als auch dem actor "L_Teil" genutzt werden konnte.
 Von Snap waren wir es gewöhnt, dass alle Objekte standartmäßig auf alle Variablen zugreifen konnten, dementsprechend waren wir unschlüssig, was zu tun war. Nach langer Recherche und einigen missglückten Versuchen, (vllt. versch. Lös. Ansätze erläutern) stießen wir schließlich auf eine Seite, die erklärte, dass man Objekte innnerhalb einer Actor Klasse erzeugen kann, indem man sich Methoden aus anderen Klassen holt. Dies funktioniert mit der sogenannten Punkt-Notation. Wir brauchten eine Methode der World Klasse. Also schrieben wir getWorld() vor die addObject Methode. Als wir es dann ausprobierten funktionierte alles. Die Variable detect, und die if-Schleife in der MyWorld Klasse wurden obsolet, da wir ja direkt in der Actor Klasse neue Objekte erzeugen konnten. Der eigentlich simple code sah dann final wie folgt aus:
 
 
 ![programm screenshot](https://user-images.githubusercontent.com/69623479/114703384-82476580-9d25-11eb-9efd-0c9d62ba4489.PNG)
 
-### <a name="10"></a>Delete Row:
+### <a name="10"></a>Delete Row 15-16.4.2021:
 Wie man es von Tetris gewöhnt war, sollte jede volle Reihe entfernt werden. D.h wir mussten irgendwie überprüfen, ob, in unserem Fall, alle 5 Blöcke unten angekommen sind und diese dann mittels der removeObject() Methode aus der World Klasse entfernen. Wir entfernten den einzelnen bottom_detector und erzeugten 5 sublclasses des bottom_detectors. (bottom_detector1, bottom_detector2 usw.) Wir platzierten sie so in der Welt, dass alle 5 möglichen x-Koordinaten des L_Teils abgedeckt waren. In jedem bottom_detector wurde ein static boolean namens "touches" definiert, der dann true wurde, wenn ein L_Teil ihn berührt. Dadurch, dass es ein static boolean war, konnte der (Main-)bottom_detector mit der Punkt-Notation und dem entsprechenden Klassennamen auf alle "touches"-Variablen zugreifen. Der (Main-)bottom_detector prüft nun in einer if-Schleife ob alle "touches"-Variablen true sind; war dies der Fall, wurde die Variable delete_row auf true gesetzt. Was uns an diesem Punkt verwirrt hat, war, dass delete_row nie auf true gesetzt wurde. Dies konnten wir mithilfe eines Breakpoints ermitteln. Nach eineigen Überlegungen fiel uns auf, dass wir die Überklasse "bottom_detector" zwar definiert, aber nicht zur Welt hinzugefügt hatten. Als wir dies behoben, funktionierte es auch wieder. Daraus schlossen wir, dass die Actors erstmal in der Welt existieren müssen, um einfluss auf Variablen etc. zu nehmen. Im L_Teil wurde dann die if-Schleife, die überprüft ob "delete_row" true ist, ausgelöst. Sie sollte nun die 5 L_Teile entfernen. In der Greenfoot Class Documenentaion unter World fanden wir die removeObject() und die remove Objects() Methoden. Beides hat uns jedoch erst nicht geholfen, da man keine Klassen sondern nur Objecte als Parameter angeben konnte. So fanden wir im Internet eine Version mit "removeObject(this)". Jedoch wurde dadurch nur ein L_Teil und nicht alle 5 entfernt. Nach weiterer Recherche stießen wir auf die Methode getWolrd().removeObjects(getWolrd().getObjects(-classname-)), mit der man gleich alle Objekte einer Klasse entfernen konnte.
 Dies funktionierte auch, nun konnte man aber nicht mehr weiter spielen, da auch der nächste Block, der gerespawnt ist und somit noch oben war, entfernt wurde. Dieses Problem konnte bis zur Abgabe nicht mehr gelöst werden.
