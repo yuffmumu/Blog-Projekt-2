@@ -112,4 +112,4 @@ Von Snap waren wir es gewöhnt, dass alle Objekte standartmäßig auf alle Varia
 ![programm screenshot](https://user-images.githubusercontent.com/69623479/114703384-82476580-9d25-11eb-9efd-0c9d62ba4489.PNG)
 
 ### <a name="10"></a>Delete Row:
-sfsfsfsd
+Wie man es von Tetris gewöhnt war, sollte eine volle Reihe entfernt werden. D.h wir mussten irgendwie überprüfen, ob, in unserem Fall, alle 5 Blöcke unten angekommen sind und diese dann mittels der removeObject() Methode aus der World Klasse entfernen.
